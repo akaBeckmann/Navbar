@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+nav .search-btn {
+    color: black;
+    cursor: pointer;
+}
+
+nav .search-btn:hover {
+    background: green;
+    color: white;
+}
+.navbar {
+    background-color: rgba(73, 40, 77, 0.432);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .menu, .navbar .searching{
+        display: none;
+    }
+    .visible {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .select {
+        margin: 10px auto;
+        text-align: right;
+    }
+}
